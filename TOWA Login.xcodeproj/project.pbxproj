@@ -7,15 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		873521C5931B240279D22095 /* Pods_TOWA_Login.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0C4726E1C4D4CF5EA521E37 /* Pods_TOWA_Login.framework */; };
+		B46B729A2879387400B06447 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46B72992879387400B06447 /* User.swift */; };
+		B46B729B2879387400B06447 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46B72992879387400B06447 /* User.swift */; };
+		B46B729C2879387400B06447 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46B72992879387400B06447 /* User.swift */; };
+		B46B729D2879387700B06447 /* UsersWebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49293E42879361B007C6EB5 /* UsersWebService.swift */; };
+		B46B729E2879387800B06447 /* UsersWebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49293E42879361B007C6EB5 /* UsersWebService.swift */; };
+		B46B72A028793F5200B06447 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46B729F28793F5200B06447 /* Address.swift */; };
+		B46B72A128793F5200B06447 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46B729F28793F5200B06447 /* Address.swift */; };
+		B46B72A228793F5200B06447 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46B729F28793F5200B06447 /* Address.swift */; };
+		B46B72A428793F5900B06447 /* Geo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46B72A328793F5900B06447 /* Geo.swift */; };
+		B46B72A528793F5900B06447 /* Geo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46B72A328793F5900B06447 /* Geo.swift */; };
+		B46B72A628793F5900B06447 /* Geo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46B72A328793F5900B06447 /* Geo.swift */; };
+		B46B72A828793F6200B06447 /* Company.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46B72A728793F6200B06447 /* Company.swift */; };
+		B46B72A928793F6200B06447 /* Company.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46B72A728793F6200B06447 /* Company.swift */; };
+		B46B72AA28793F6200B06447 /* Company.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46B72A728793F6200B06447 /* Company.swift */; };
+		B46B72B52879532F00B06447 /* TWTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46B72B42879532F00B06447 /* TWTextField.swift */; };
+		B46B72B62879532F00B06447 /* TWTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46B72B42879532F00B06447 /* TWTextField.swift */; };
+		B46B72B72879532F00B06447 /* TWTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46B72B42879532F00B06447 /* TWTextField.swift */; };
+		B46B72B92879534A00B06447 /* TWTextField.xib in Resources */ = {isa = PBXBuildFile; fileRef = B46B72B82879534A00B06447 /* TWTextField.xib */; };
+		B46B72BA2879534A00B06447 /* TWTextField.xib in Resources */ = {isa = PBXBuildFile; fileRef = B46B72B82879534A00B06447 /* TWTextField.xib */; };
+		B46B72BB2879534A00B06447 /* TWTextField.xib in Resources */ = {isa = PBXBuildFile; fileRef = B46B72B82879534A00B06447 /* TWTextField.xib */; };
+		B482BB7E287979FD00C84DBC /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B482BB7D287979FD00C84DBC /* RegistrationViewController.swift */; };
+		B482BB7F287979FD00C84DBC /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B482BB7D287979FD00C84DBC /* RegistrationViewController.swift */; };
+		B482BB80287979FD00C84DBC /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B482BB7D287979FD00C84DBC /* RegistrationViewController.swift */; };
 		B49293AE287934FD007C6EB5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49293AD287934FD007C6EB5 /* AppDelegate.swift */; };
 		B49293B0287934FD007C6EB5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49293AF287934FD007C6EB5 /* SceneDelegate.swift */; };
-		B49293B2287934FD007C6EB5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49293B1287934FD007C6EB5 /* ViewController.swift */; };
+		B49293B2287934FD007C6EB5 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49293B1287934FD007C6EB5 /* LoginViewController.swift */; };
 		B49293B5287934FD007C6EB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B49293B3287934FD007C6EB5 /* Main.storyboard */; };
 		B49293B7287934FE007C6EB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B49293B6287934FE007C6EB5 /* Assets.xcassets */; };
 		B49293BA287934FE007C6EB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B49293B8287934FE007C6EB5 /* LaunchScreen.storyboard */; };
 		B49293C5287934FE007C6EB5 /* TOWA_LoginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49293C4287934FE007C6EB5 /* TOWA_LoginTests.swift */; };
 		B49293CF287934FE007C6EB5 /* TOWA_LoginUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49293CE287934FE007C6EB5 /* TOWA_LoginUITests.swift */; };
 		B49293D1287934FE007C6EB5 /* TOWA_LoginUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49293D0287934FE007C6EB5 /* TOWA_LoginUITestsLaunchTests.swift */; };
+		B49293E52879361B007C6EB5 /* UsersWebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49293E42879361B007C6EB5 /* UsersWebService.swift */; };
+		B4F652F12879C4D300BA4CC0 /* CredentialsUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F652F02879C4D300BA4CC0 /* CredentialsUtils.swift */; };
+		B4F652F32879D6F200BA4CC0 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F652F22879D6F200BA4CC0 /* BaseViewController.swift */; };
+		B4F652F42879D6F200BA4CC0 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F652F22879D6F200BA4CC0 /* BaseViewController.swift */; };
+		B4F652F52879D6F200BA4CC0 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F652F22879D6F200BA4CC0 /* BaseViewController.swift */; };
+		B4F652F62879D6F700BA4CC0 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49293B1287934FD007C6EB5 /* LoginViewController.swift */; };
+		B4F652F72879D6F800BA4CC0 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49293B1287934FD007C6EB5 /* LoginViewController.swift */; };
+		B4F652F92879E20E00BA4CC0 /* UsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F652F82879E20E00BA4CC0 /* UsersViewController.swift */; };
+		B4F652FA2879E20E00BA4CC0 /* UsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F652F82879E20E00BA4CC0 /* UsersViewController.swift */; };
+		B4F652FB2879E20E00BA4CC0 /* UsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F652F82879E20E00BA4CC0 /* UsersViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +70,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		81A22C52815FD74EBABABC2F /* Pods-TOWA Login.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TOWA Login.debug.xcconfig"; path = "Target Support Files/Pods-TOWA Login/Pods-TOWA Login.debug.xcconfig"; sourceTree = "<group>"; };
+		B0C4726E1C4D4CF5EA521E37 /* Pods_TOWA_Login.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TOWA_Login.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B46B72992879387400B06447 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		B46B729F28793F5200B06447 /* Address.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
+		B46B72A328793F5900B06447 /* Geo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Geo.swift; sourceTree = "<group>"; };
+		B46B72A728793F6200B06447 /* Company.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Company.swift; sourceTree = "<group>"; };
+		B46B72B42879532F00B06447 /* TWTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TWTextField.swift; sourceTree = "<group>"; };
+		B46B72B82879534A00B06447 /* TWTextField.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TWTextField.xib; sourceTree = "<group>"; };
+		B482BB7D287979FD00C84DBC /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
 		B49293AA287934FD007C6EB5 /* TOWA Login.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TOWA Login.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B49293AD287934FD007C6EB5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B49293AF287934FD007C6EB5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B49293B1287934FD007C6EB5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B49293B1287934FD007C6EB5 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		B49293B4287934FD007C6EB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B49293B6287934FE007C6EB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B49293B9287934FE007C6EB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +92,11 @@
 		B49293CA287934FE007C6EB5 /* TOWA LoginUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TOWA LoginUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B49293CE287934FE007C6EB5 /* TOWA_LoginUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TOWA_LoginUITests.swift; sourceTree = "<group>"; };
 		B49293D0287934FE007C6EB5 /* TOWA_LoginUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TOWA_LoginUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B49293E42879361B007C6EB5 /* UsersWebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersWebService.swift; sourceTree = "<group>"; };
+		B4F652F02879C4D300BA4CC0 /* CredentialsUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CredentialsUtils.swift; sourceTree = "<group>"; };
+		B4F652F22879D6F200BA4CC0 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		B4F652F82879E20E00BA4CC0 /* UsersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersViewController.swift; sourceTree = "<group>"; };
+		E2513C8CAAA321C6464A0A01 /* Pods-TOWA Login.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TOWA Login.release.xcconfig"; path = "Target Support Files/Pods-TOWA Login/Pods-TOWA Login.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				873521C5931B240279D22095 /* Pods_TOWA_Login.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +125,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		51F3749DEB2AA75CBE307364 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B0C4726E1C4D4CF5EA521E37 /* Pods_TOWA_Login.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A98A8EC04E88774317D18206 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				81A22C52815FD74EBABABC2F /* Pods-TOWA Login.debug.xcconfig */,
+				E2513C8CAAA321C6464A0A01 /* Pods-TOWA Login.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		B49293A1287934FD007C6EB5 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +149,8 @@
 				B49293C3287934FE007C6EB5 /* TOWA LoginTests */,
 				B49293CD287934FE007C6EB5 /* TOWA LoginUITests */,
 				B49293AB287934FD007C6EB5 /* Products */,
+				A98A8EC04E88774317D18206 /* Pods */,
+				51F3749DEB2AA75CBE307364 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +167,13 @@
 		B49293AC287934FD007C6EB5 /* TOWA Login */ = {
 			isa = PBXGroup;
 			children = (
-				B49293AD287934FD007C6EB5 /* AppDelegate.swift */,
-				B49293AF287934FD007C6EB5 /* SceneDelegate.swift */,
-				B49293B1287934FD007C6EB5 /* ViewController.swift */,
-				B49293B3287934FD007C6EB5 /* Main.storyboard */,
-				B49293B6287934FE007C6EB5 /* Assets.xcassets */,
-				B49293B8287934FE007C6EB5 /* LaunchScreen.storyboard */,
-				B49293BB287934FE007C6EB5 /* Info.plist */,
+				B49293DD2879357F007C6EB5 /* App */,
+				B49293DE2879358C007C6EB5 /* Storyboards */,
+				B49293DF287935B0007C6EB5 /* View Controllers */,
+				B49293E1287935CC007C6EB5 /* APIs */,
+				B49293E2287935D4007C6EB5 /* Models */,
+				B49293E3287935D9007C6EB5 /* ViewModels */,
+				B49293E0287935C0007C6EB5 /* Views */,
 			);
 			path = "TOWA Login";
 			sourceTree = "<group>";
@@ -127,6 +195,73 @@
 			path = "TOWA LoginUITests";
 			sourceTree = "<group>";
 		};
+		B49293DD2879357F007C6EB5 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				B49293B6287934FE007C6EB5 /* Assets.xcassets */,
+				B49293BB287934FE007C6EB5 /* Info.plist */,
+				B49293AD287934FD007C6EB5 /* AppDelegate.swift */,
+				B49293AF287934FD007C6EB5 /* SceneDelegate.swift */,
+				B4F652F02879C4D300BA4CC0 /* CredentialsUtils.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		B49293DE2879358C007C6EB5 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				B49293B3287934FD007C6EB5 /* Main.storyboard */,
+				B49293B8287934FE007C6EB5 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		B49293DF287935B0007C6EB5 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B49293B1287934FD007C6EB5 /* LoginViewController.swift */,
+				B482BB7D287979FD00C84DBC /* RegistrationViewController.swift */,
+				B4F652F82879E20E00BA4CC0 /* UsersViewController.swift */,
+				B4F652F22879D6F200BA4CC0 /* BaseViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		B49293E0287935C0007C6EB5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B46B72B42879532F00B06447 /* TWTextField.swift */,
+				B46B72B82879534A00B06447 /* TWTextField.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B49293E1287935CC007C6EB5 /* APIs */ = {
+			isa = PBXGroup;
+			children = (
+				B49293E42879361B007C6EB5 /* UsersWebService.swift */,
+			);
+			path = APIs;
+			sourceTree = "<group>";
+		};
+		B49293E2287935D4007C6EB5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B46B72992879387400B06447 /* User.swift */,
+				B46B729F28793F5200B06447 /* Address.swift */,
+				B46B72A328793F5900B06447 /* Geo.swift */,
+				B46B72A728793F6200B06447 /* Company.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B49293E3287935D9007C6EB5 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +269,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B49293D4287934FE007C6EB5 /* Build configuration list for PBXNativeTarget "TOWA Login" */;
 			buildPhases = (
+				9856AB8AE2D4E31D885109C8 /* [CP] Check Pods Manifest.lock */,
 				B49293A6287934FD007C6EB5 /* Sources */,
 				B49293A7287934FD007C6EB5 /* Frameworks */,
 				B49293A8287934FD007C6EB5 /* Resources */,
+				A74DCA0BE063408BF24F38D5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -231,6 +368,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B46B72B92879534A00B06447 /* TWTextField.xib in Resources */,
 				B49293BA287934FE007C6EB5 /* LaunchScreen.storyboard in Resources */,
 				B49293B7287934FE007C6EB5 /* Assets.xcassets in Resources */,
 				B49293B5287934FD007C6EB5 /* Main.storyboard in Resources */,
@@ -241,6 +379,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B46B72BA2879534A00B06447 /* TWTextField.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,19 +387,72 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B46B72BB2879534A00B06447 /* TWTextField.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9856AB8AE2D4E31D885109C8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TOWA Login-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A74DCA0BE063408BF24F38D5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TOWA Login/Pods-TOWA Login-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TOWA Login/Pods-TOWA Login-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TOWA Login/Pods-TOWA Login-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B49293A6287934FD007C6EB5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B49293B2287934FD007C6EB5 /* ViewController.swift in Sources */,
+				B46B72B52879532F00B06447 /* TWTextField.swift in Sources */,
+				B46B72A028793F5200B06447 /* Address.swift in Sources */,
+				B4F652F92879E20E00BA4CC0 /* UsersViewController.swift in Sources */,
+				B49293B2287934FD007C6EB5 /* LoginViewController.swift in Sources */,
+				B49293E52879361B007C6EB5 /* UsersWebService.swift in Sources */,
+				B482BB7E287979FD00C84DBC /* RegistrationViewController.swift in Sources */,
+				B4F652F32879D6F200BA4CC0 /* BaseViewController.swift in Sources */,
 				B49293AE287934FD007C6EB5 /* AppDelegate.swift in Sources */,
+				B46B729A2879387400B06447 /* User.swift in Sources */,
+				B4F652F12879C4D300BA4CC0 /* CredentialsUtils.swift in Sources */,
 				B49293B0287934FD007C6EB5 /* SceneDelegate.swift in Sources */,
+				B46B72A428793F5900B06447 /* Geo.swift in Sources */,
+				B46B72A828793F6200B06447 /* Company.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +460,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B46B729D2879387700B06447 /* UsersWebService.swift in Sources */,
+				B46B729B2879387400B06447 /* User.swift in Sources */,
+				B482BB7F287979FD00C84DBC /* RegistrationViewController.swift in Sources */,
+				B4F652FA2879E20E00BA4CC0 /* UsersViewController.swift in Sources */,
+				B46B72A128793F5200B06447 /* Address.swift in Sources */,
+				B46B72B62879532F00B06447 /* TWTextField.swift in Sources */,
+				B4F652F42879D6F200BA4CC0 /* BaseViewController.swift in Sources */,
 				B49293C5287934FE007C6EB5 /* TOWA_LoginTests.swift in Sources */,
+				B46B72A528793F5900B06447 /* Geo.swift in Sources */,
+				B4F652F62879D6F700BA4CC0 /* LoginViewController.swift in Sources */,
+				B46B72A928793F6200B06447 /* Company.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +478,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B46B72B72879532F00B06447 /* TWTextField.swift in Sources */,
+				B4F652FB2879E20E00BA4CC0 /* UsersViewController.swift in Sources */,
 				B49293CF287934FE007C6EB5 /* TOWA_LoginUITests.swift in Sources */,
+				B46B729E2879387800B06447 /* UsersWebService.swift in Sources */,
+				B482BB80287979FD00C84DBC /* RegistrationViewController.swift in Sources */,
 				B49293D1287934FE007C6EB5 /* TOWA_LoginUITestsLaunchTests.swift in Sources */,
+				B4F652F52879D6F200BA4CC0 /* BaseViewController.swift in Sources */,
+				B46B729C2879387400B06447 /* User.swift in Sources */,
+				B46B72AA28793F6200B06447 /* Company.swift in Sources */,
+				B46B72A228793F5200B06447 /* Address.swift in Sources */,
+				B46B72A628793F5900B06447 /* Geo.swift in Sources */,
+				B4F652F72879D6F800BA4CC0 /* LoginViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,25 +644,30 @@
 		};
 		B49293D5287934FE007C6EB5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81A22C52815FD74EBABABC2F /* Pods-TOWA Login.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = W8ML258KX3;
+				EXCLUDED_ARCHS = arm64;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "TOWA Login/Info.plist";
+				INFOPLIST_FILE = "TOWA Login/App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = NO;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.artbelmonte.towalogin.TOWA-Login";
+				PRODUCT_BUNDLE_IDENTIFIER = com.artbelmonte.towalogin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -460,25 +677,30 @@
 		};
 		B49293D6287934FE007C6EB5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2513C8CAAA321C6464A0A01 /* Pods-TOWA Login.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = W8ML258KX3;
+				EXCLUDED_ARCHS = arm64;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "TOWA Login/Info.plist";
+				INFOPLIST_FILE = "TOWA Login/App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = NO;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.artbelmonte.towalogin.TOWA-Login";
+				PRODUCT_BUNDLE_IDENTIFIER = com.artbelmonte.towalogin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
