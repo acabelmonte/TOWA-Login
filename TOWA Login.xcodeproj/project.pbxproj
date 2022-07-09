@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B49293AE287934FD007C6EB5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49293AD287934FD007C6EB5 /* AppDelegate.swift */; };
+		B49293B0287934FD007C6EB5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49293AF287934FD007C6EB5 /* SceneDelegate.swift */; };
+		B49293B2287934FD007C6EB5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49293B1287934FD007C6EB5 /* ViewController.swift */; };
+		B49293B5287934FD007C6EB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B49293B3287934FD007C6EB5 /* Main.storyboard */; };
+		B49293B7287934FE007C6EB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B49293B6287934FE007C6EB5 /* Assets.xcassets */; };
+		B49293BA287934FE007C6EB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B49293B8287934FE007C6EB5 /* LaunchScreen.storyboard */; };
+		B49293C5287934FE007C6EB5 /* TOWA_LoginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49293C4287934FE007C6EB5 /* TOWA_LoginTests.swift */; };
+		B49293CF287934FE007C6EB5 /* TOWA_LoginUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49293CE287934FE007C6EB5 /* TOWA_LoginUITests.swift */; };
+		B49293D1287934FE007C6EB5 /* TOWA_LoginUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49293D0287934FE007C6EB5 /* TOWA_LoginUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B49293C1287934FE007C6EB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B49293A2287934FD007C6EB5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B49293A9287934FD007C6EB5;
+			remoteInfo = "TOWA Login";
+		};
+		B49293CB287934FE007C6EB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B49293A2287934FD007C6EB5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B49293A9287934FD007C6EB5;
+			remoteInfo = "TOWA Login";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B49293AA287934FD007C6EB5 /* TOWA Login.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TOWA Login.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B49293AD287934FD007C6EB5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B49293AF287934FD007C6EB5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B49293B1287934FD007C6EB5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B49293B4287934FD007C6EB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B49293B6287934FE007C6EB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B49293B9287934FE007C6EB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B49293BB287934FE007C6EB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B49293C0287934FE007C6EB5 /* TOWA LoginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TOWA LoginTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B49293C4287934FE007C6EB5 /* TOWA_LoginTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TOWA_LoginTests.swift; sourceTree = "<group>"; };
+		B49293CA287934FE007C6EB5 /* TOWA LoginUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TOWA LoginUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B49293CE287934FE007C6EB5 /* TOWA_LoginUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TOWA_LoginUITests.swift; sourceTree = "<group>"; };
+		B49293D0287934FE007C6EB5 /* TOWA_LoginUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TOWA_LoginUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B49293A7287934FD007C6EB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B49293BD287934FE007C6EB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B49293C7287934FE007C6EB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B49293A1287934FD007C6EB5 = {
+			isa = PBXGroup;
+			children = (
+				B49293AC287934FD007C6EB5 /* TOWA Login */,
+				B49293C3287934FE007C6EB5 /* TOWA LoginTests */,
+				B49293CD287934FE007C6EB5 /* TOWA LoginUITests */,
+				B49293AB287934FD007C6EB5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B49293AB287934FD007C6EB5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B49293AA287934FD007C6EB5 /* TOWA Login.app */,
+				B49293C0287934FE007C6EB5 /* TOWA LoginTests.xctest */,
+				B49293CA287934FE007C6EB5 /* TOWA LoginUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B49293AC287934FD007C6EB5 /* TOWA Login */ = {
+			isa = PBXGroup;
+			children = (
+				B49293AD287934FD007C6EB5 /* AppDelegate.swift */,
+				B49293AF287934FD007C6EB5 /* SceneDelegate.swift */,
+				B49293B1287934FD007C6EB5 /* ViewController.swift */,
+				B49293B3287934FD007C6EB5 /* Main.storyboard */,
+				B49293B6287934FE007C6EB5 /* Assets.xcassets */,
+				B49293B8287934FE007C6EB5 /* LaunchScreen.storyboard */,
+				B49293BB287934FE007C6EB5 /* Info.plist */,
+			);
+			path = "TOWA Login";
+			sourceTree = "<group>";
+		};
+		B49293C3287934FE007C6EB5 /* TOWA LoginTests */ = {
+			isa = PBXGroup;
+			children = (
+				B49293C4287934FE007C6EB5 /* TOWA_LoginTests.swift */,
+			);
+			path = "TOWA LoginTests";
+			sourceTree = "<group>";
+		};
+		B49293CD287934FE007C6EB5 /* TOWA LoginUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B49293CE287934FE007C6EB5 /* TOWA_LoginUITests.swift */,
+				B49293D0287934FE007C6EB5 /* TOWA_LoginUITestsLaunchTests.swift */,
+			);
+			path = "TOWA LoginUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B49293A9287934FD007C6EB5 /* TOWA Login */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B49293D4287934FE007C6EB5 /* Build configuration list for PBXNativeTarget "TOWA Login" */;
+			buildPhases = (
+				B49293A6287934FD007C6EB5 /* Sources */,
+				B49293A7287934FD007C6EB5 /* Frameworks */,
+				B49293A8287934FD007C6EB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TOWA Login";
+			productName = "TOWA Login";
+			productReference = B49293AA287934FD007C6EB5 /* TOWA Login.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B49293BF287934FE007C6EB5 /* TOWA LoginTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B49293D7287934FE007C6EB5 /* Build configuration list for PBXNativeTarget "TOWA LoginTests" */;
+			buildPhases = (
+				B49293BC287934FE007C6EB5 /* Sources */,
+				B49293BD287934FE007C6EB5 /* Frameworks */,
+				B49293BE287934FE007C6EB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B49293C2287934FE007C6EB5 /* PBXTargetDependency */,
+			);
+			name = "TOWA LoginTests";
+			productName = "TOWA LoginTests";
+			productReference = B49293C0287934FE007C6EB5 /* TOWA LoginTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B49293C9287934FE007C6EB5 /* TOWA LoginUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B49293DA287934FE007C6EB5 /* Build configuration list for PBXNativeTarget "TOWA LoginUITests" */;
+			buildPhases = (
+				B49293C6287934FE007C6EB5 /* Sources */,
+				B49293C7287934FE007C6EB5 /* Frameworks */,
+				B49293C8287934FE007C6EB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B49293CC287934FE007C6EB5 /* PBXTargetDependency */,
+			);
+			name = "TOWA LoginUITests";
+			productName = "TOWA LoginUITests";
+			productReference = B49293CA287934FE007C6EB5 /* TOWA LoginUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B49293A2287934FD007C6EB5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					B49293A9287934FD007C6EB5 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					B49293BF287934FE007C6EB5 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = B49293A9287934FD007C6EB5;
+					};
+					B49293C9287934FE007C6EB5 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = B49293A9287934FD007C6EB5;
+					};
+				};
+			};
+			buildConfigurationList = B49293A5287934FD007C6EB5 /* Build configuration list for PBXProject "TOWA Login" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B49293A1287934FD007C6EB5;
+			productRefGroup = B49293AB287934FD007C6EB5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B49293A9287934FD007C6EB5 /* TOWA Login */,
+				B49293BF287934FE007C6EB5 /* TOWA LoginTests */,
+				B49293C9287934FE007C6EB5 /* TOWA LoginUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B49293A8287934FD007C6EB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B49293BA287934FE007C6EB5 /* LaunchScreen.storyboard in Resources */,
+				B49293B7287934FE007C6EB5 /* Assets.xcassets in Resources */,
+				B49293B5287934FD007C6EB5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B49293BE287934FE007C6EB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B49293C8287934FE007C6EB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B49293A6287934FD007C6EB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B49293B2287934FD007C6EB5 /* ViewController.swift in Sources */,
+				B49293AE287934FD007C6EB5 /* AppDelegate.swift in Sources */,
+				B49293B0287934FD007C6EB5 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B49293BC287934FE007C6EB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B49293C5287934FE007C6EB5 /* TOWA_LoginTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B49293C6287934FE007C6EB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B49293CF287934FE007C6EB5 /* TOWA_LoginUITests.swift in Sources */,
+				B49293D1287934FE007C6EB5 /* TOWA_LoginUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B49293C2287934FE007C6EB5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B49293A9287934FD007C6EB5 /* TOWA Login */;
+			targetProxy = B49293C1287934FE007C6EB5 /* PBXContainerItemProxy */;
+		};
+		B49293CC287934FE007C6EB5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B49293A9287934FD007C6EB5 /* TOWA Login */;
+			targetProxy = B49293CB287934FE007C6EB5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B49293B3287934FD007C6EB5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B49293B4287934FD007C6EB5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B49293B8287934FE007C6EB5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B49293B9287934FE007C6EB5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B49293D2287934FE007C6EB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B49293D3287934FE007C6EB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B49293D5287934FE007C6EB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W8ML258KX3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "TOWA Login/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.artbelmonte.towalogin.TOWA-Login";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B49293D6287934FE007C6EB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W8ML258KX3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "TOWA Login/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.artbelmonte.towalogin.TOWA-Login";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B49293D8287934FE007C6EB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W8ML258KX3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.artbelmonte.towalogin.TOWA-LoginTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TOWA Login.app/TOWA Login";
+			};
+			name = Debug;
+		};
+		B49293D9287934FE007C6EB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W8ML258KX3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.artbelmonte.towalogin.TOWA-LoginTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TOWA Login.app/TOWA Login";
+			};
+			name = Release;
+		};
+		B49293DB287934FE007C6EB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W8ML258KX3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.artbelmonte.towalogin.TOWA-LoginUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "TOWA Login";
+			};
+			name = Debug;
+		};
+		B49293DC287934FE007C6EB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W8ML258KX3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.artbelmonte.towalogin.TOWA-LoginUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "TOWA Login";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B49293A5287934FD007C6EB5 /* Build configuration list for PBXProject "TOWA Login" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B49293D2287934FE007C6EB5 /* Debug */,
+				B49293D3287934FE007C6EB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B49293D4287934FE007C6EB5 /* Build configuration list for PBXNativeTarget "TOWA Login" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B49293D5287934FE007C6EB5 /* Debug */,
+				B49293D6287934FE007C6EB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B49293D7287934FE007C6EB5 /* Build configuration list for PBXNativeTarget "TOWA LoginTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B49293D8287934FE007C6EB5 /* Debug */,
+				B49293D9287934FE007C6EB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B49293DA287934FE007C6EB5 /* Build configuration list for PBXNativeTarget "TOWA LoginUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B49293DB287934FE007C6EB5 /* Debug */,
+				B49293DC287934FE007C6EB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B49293A2287934FD007C6EB5 /* Project object */;
+}
