@@ -9,16 +9,18 @@ import UIKit
 import Toast
 
 class BaseViewController: UIViewController {
+    
+    let yellowColor = UIColor.init(red: 255/255, green: 168/255, blue: 0/255, alpha: 1.0)
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        // Hide resign responder when tapped outside the textfields
+        // Resign responder when tapped outside the textfields
         self.view.addGestureRecognizer(UITapGestureRecognizer(target: self.view, action: #selector(UIView.endEditing(_:))))
         
         // Setup Toast style
         let style = CSToastManager.sharedStyle()
-        style?.backgroundColor = UIColor.init(red: 255/255, green: 168/255, blue: 0/255, alpha: 1.0)
+        style?.backgroundColor = yellowColor
         style?.horizontalPadding = 40.0
         style?.verticalPadding = 12.0
         style?.messageNumberOfLines = 0
@@ -28,26 +30,21 @@ class BaseViewController: UIViewController {
     }
     
     func showMessage(message: String) {
-        self.view.makeToast(message, duration: 2.0, position: CSToastPositionTop)
+        DispatchQueue.main.async {
+            self.view.makeToast(message, duration: 2.0, position: CSToastPositionTop)
+        }
     }
     
     func showLoading() {
-        self.view.makeToastActivity(CSToastPositionCenter)
+        DispatchQueue.main.async {
+            self.view.makeToastActivity(CSToastPositionCenter)
+        }
     }
     
     func hideLoading() {
-        self.view.hideToast()
+        DispatchQueue.main.async {
+            self.view.hideToastActivity()
+        }
     }
 
 }
-
-// Move to VM
-//        UsersWebService().getUsers { usersData in
-//            var users = [User]()
-//            for userData in usersData {
-//                let user = User(data: userData)
-//                users.append(user)
-//            }
-//        } failure: { error in
-//            print(error)
-//        }

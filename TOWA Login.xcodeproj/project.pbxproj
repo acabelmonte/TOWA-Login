@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		873521C5931B240279D22095 /* Pods_TOWA_Login.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0C4726E1C4D4CF5EA521E37 /* Pods_TOWA_Login.framework */; };
+		B44FEF62287A2F810048D2F5 /* UserDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44FEF61287A2F810048D2F5 /* UserDetailsViewController.swift */; };
+		B44FEF63287A2F810048D2F5 /* UserDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44FEF61287A2F810048D2F5 /* UserDetailsViewController.swift */; };
+		B44FEF64287A2F810048D2F5 /* UserDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44FEF61287A2F810048D2F5 /* UserDetailsViewController.swift */; };
 		B46B729A2879387400B06447 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46B72992879387400B06447 /* User.swift */; };
 		B46B729B2879387400B06447 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46B72992879387400B06447 /* User.swift */; };
 		B46B729C2879387400B06447 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46B72992879387400B06447 /* User.swift */; };
@@ -41,6 +44,9 @@
 		B49293CF287934FE007C6EB5 /* TOWA_LoginUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49293CE287934FE007C6EB5 /* TOWA_LoginUITests.swift */; };
 		B49293D1287934FE007C6EB5 /* TOWA_LoginUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49293D0287934FE007C6EB5 /* TOWA_LoginUITestsLaunchTests.swift */; };
 		B49293E52879361B007C6EB5 /* UsersWebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49293E42879361B007C6EB5 /* UsersWebService.swift */; };
+		B4C9DAC3287A1D1C00BFD8AE /* UsersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4C9DAC2287A1D1C00BFD8AE /* UsersViewModel.swift */; };
+		B4C9DAC4287A1D1C00BFD8AE /* UsersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4C9DAC2287A1D1C00BFD8AE /* UsersViewModel.swift */; };
+		B4C9DAC5287A1D1C00BFD8AE /* UsersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4C9DAC2287A1D1C00BFD8AE /* UsersViewModel.swift */; };
 		B4F652F12879C4D300BA4CC0 /* CredentialsUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F652F02879C4D300BA4CC0 /* CredentialsUtils.swift */; };
 		B4F652F32879D6F200BA4CC0 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F652F22879D6F200BA4CC0 /* BaseViewController.swift */; };
 		B4F652F42879D6F200BA4CC0 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F652F22879D6F200BA4CC0 /* BaseViewController.swift */; };
@@ -72,6 +78,7 @@
 /* Begin PBXFileReference section */
 		81A22C52815FD74EBABABC2F /* Pods-TOWA Login.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TOWA Login.debug.xcconfig"; path = "Target Support Files/Pods-TOWA Login/Pods-TOWA Login.debug.xcconfig"; sourceTree = "<group>"; };
 		B0C4726E1C4D4CF5EA521E37 /* Pods_TOWA_Login.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TOWA_Login.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B44FEF61287A2F810048D2F5 /* UserDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailsViewController.swift; sourceTree = "<group>"; };
 		B46B72992879387400B06447 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		B46B729F28793F5200B06447 /* Address.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
 		B46B72A328793F5900B06447 /* Geo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Geo.swift; sourceTree = "<group>"; };
@@ -93,6 +100,7 @@
 		B49293CE287934FE007C6EB5 /* TOWA_LoginUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TOWA_LoginUITests.swift; sourceTree = "<group>"; };
 		B49293D0287934FE007C6EB5 /* TOWA_LoginUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TOWA_LoginUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		B49293E42879361B007C6EB5 /* UsersWebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersWebService.swift; sourceTree = "<group>"; };
+		B4C9DAC2287A1D1C00BFD8AE /* UsersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersViewModel.swift; sourceTree = "<group>"; };
 		B4F652F02879C4D300BA4CC0 /* CredentialsUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CredentialsUtils.swift; sourceTree = "<group>"; };
 		B4F652F22879D6F200BA4CC0 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		B4F652F82879E20E00BA4CC0 /* UsersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersViewController.swift; sourceTree = "<group>"; };
@@ -222,6 +230,7 @@
 				B49293B1287934FD007C6EB5 /* LoginViewController.swift */,
 				B482BB7D287979FD00C84DBC /* RegistrationViewController.swift */,
 				B4F652F82879E20E00BA4CC0 /* UsersViewController.swift */,
+				B44FEF61287A2F810048D2F5 /* UserDetailsViewController.swift */,
 				B4F652F22879D6F200BA4CC0 /* BaseViewController.swift */,
 			);
 			path = "View Controllers";
@@ -258,6 +267,7 @@
 		B49293E3287935D9007C6EB5 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				B4C9DAC2287A1D1C00BFD8AE /* UsersViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -441,9 +451,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				B46B72B52879532F00B06447 /* TWTextField.swift in Sources */,
+				B4C9DAC3287A1D1C00BFD8AE /* UsersViewModel.swift in Sources */,
 				B46B72A028793F5200B06447 /* Address.swift in Sources */,
 				B4F652F92879E20E00BA4CC0 /* UsersViewController.swift in Sources */,
 				B49293B2287934FD007C6EB5 /* LoginViewController.swift in Sources */,
+				B44FEF62287A2F810048D2F5 /* UserDetailsViewController.swift in Sources */,
 				B49293E52879361B007C6EB5 /* UsersWebService.swift in Sources */,
 				B482BB7E287979FD00C84DBC /* RegistrationViewController.swift in Sources */,
 				B4F652F32879D6F200BA4CC0 /* BaseViewController.swift in Sources */,
@@ -461,12 +473,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				B46B729D2879387700B06447 /* UsersWebService.swift in Sources */,
+				B4C9DAC4287A1D1C00BFD8AE /* UsersViewModel.swift in Sources */,
 				B46B729B2879387400B06447 /* User.swift in Sources */,
 				B482BB7F287979FD00C84DBC /* RegistrationViewController.swift in Sources */,
 				B4F652FA2879E20E00BA4CC0 /* UsersViewController.swift in Sources */,
 				B46B72A128793F5200B06447 /* Address.swift in Sources */,
 				B46B72B62879532F00B06447 /* TWTextField.swift in Sources */,
 				B4F652F42879D6F200BA4CC0 /* BaseViewController.swift in Sources */,
+				B44FEF63287A2F810048D2F5 /* UserDetailsViewController.swift in Sources */,
 				B49293C5287934FE007C6EB5 /* TOWA_LoginTests.swift in Sources */,
 				B46B72A528793F5900B06447 /* Geo.swift in Sources */,
 				B4F652F62879D6F700BA4CC0 /* LoginViewController.swift in Sources */,
@@ -479,8 +493,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B46B72B72879532F00B06447 /* TWTextField.swift in Sources */,
+				B4C9DAC5287A1D1C00BFD8AE /* UsersViewModel.swift in Sources */,
 				B4F652FB2879E20E00BA4CC0 /* UsersViewController.swift in Sources */,
 				B49293CF287934FE007C6EB5 /* TOWA_LoginUITests.swift in Sources */,
+				B44FEF64287A2F810048D2F5 /* UserDetailsViewController.swift in Sources */,
 				B46B729E2879387800B06447 /* UsersWebService.swift in Sources */,
 				B482BB80287979FD00C84DBC /* RegistrationViewController.swift in Sources */,
 				B49293D1287934FE007C6EB5 /* TOWA_LoginUITestsLaunchTests.swift in Sources */,
