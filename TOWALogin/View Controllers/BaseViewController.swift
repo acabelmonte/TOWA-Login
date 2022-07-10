@@ -16,7 +16,7 @@ class BaseViewController: UIViewController {
         super.viewDidLoad()
         
         // Resign responder when tapped outside the textfields
-        self.view.addGestureRecognizer(UITapGestureRecognizer(target: self.view, action: #selector(UIView.endEditing(_:))))
+        view.addGestureRecognizer(UITapGestureRecognizer(target: view, action: #selector(UIView.endEditing(_:))))
         
         // Setup Toast style
         let style = CSToastManager.sharedStyle()

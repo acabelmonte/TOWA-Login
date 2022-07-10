@@ -8,6 +8,7 @@
 import Foundation
 
 class User {
+    
     var id = 0
     var name: String?
     var username: String?
@@ -32,7 +33,6 @@ class User {
         if let companyDict = data["company"] as? [String : Any] {
             company = Company(data: companyDict)
         }
-        
     }
     
 }

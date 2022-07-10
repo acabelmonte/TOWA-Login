@@ -9,12 +9,17 @@ import Foundation
 
 class Geo {
     
-    var lat: String?
-    var lng: String?
+    var lat: Double = 0.0
+    var lng: Double = 0.0
     
     init(data: [String: Any]) {
-        lat = data["lat"] as? String
-        lng = data["lng"] as? String
+        if let latitude = data["lat"] as? String {
+            lat = Double(latitude) ?? 0.0
+        }
+        
+        if let longitude = data["lng"] as? String {
+            lng = Double(longitude) ?? 0.0
+        }
     }
     
 }

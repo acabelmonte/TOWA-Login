@@ -27,6 +27,8 @@
 		B4F652F12879C4D300BA4CC0 /* CredentialsUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F652F02879C4D300BA4CC0 /* CredentialsUtils.swift */; };
 		B4F652F32879D6F200BA4CC0 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F652F22879D6F200BA4CC0 /* BaseViewController.swift */; };
 		B4F652F92879E20E00BA4CC0 /* UsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F652F82879E20E00BA4CC0 /* UsersViewController.swift */; };
+		B4FA6E59287A7C3900431D2D /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FA6E58287A7C3900431D2D /* MapViewController.swift */; };
+		B4FA6E5B287A989D00431D2D /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FA6E5A287A989D00431D2D /* MapViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +57,8 @@
 		B4F652F02879C4D300BA4CC0 /* CredentialsUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CredentialsUtils.swift; sourceTree = "<group>"; };
 		B4F652F22879D6F200BA4CC0 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		B4F652F82879E20E00BA4CC0 /* UsersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersViewController.swift; sourceTree = "<group>"; };
+		B4FA6E58287A7C3900431D2D /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		B4FA6E5A287A989D00431D2D /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
 		E2513C8CAAA321C6464A0A01 /* Pods-TOWA Login.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TOWA Login.release.xcconfig"; path = "Target Support Files/Pods-TOWA Login/Pods-TOWA Login.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -149,6 +153,7 @@
 				B482BB7D287979FD00C84DBC /* RegistrationViewController.swift */,
 				B4F652F82879E20E00BA4CC0 /* UsersViewController.swift */,
 				B44FEF61287A2F810048D2F5 /* UserDetailsViewController.swift */,
+				B4FA6E58287A7C3900431D2D /* MapViewController.swift */,
 				B4F652F22879D6F200BA4CC0 /* BaseViewController.swift */,
 			);
 			path = "View Controllers";
@@ -186,6 +191,7 @@
 			isa = PBXGroup;
 			children = (
 				B4C9DAC2287A1D1C00BFD8AE /* UsersViewModel.swift */,
+				B4FA6E5A287A989D00431D2D /* MapViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -319,8 +325,10 @@
 				B46B729A2879387400B06447 /* User.swift in Sources */,
 				B4F652F12879C4D300BA4CC0 /* CredentialsUtils.swift in Sources */,
 				B49293B0287934FD007C6EB5 /* SceneDelegate.swift in Sources */,
+				B4FA6E5B287A989D00431D2D /* MapViewModel.swift in Sources */,
 				B46B72A428793F5900B06447 /* Geo.swift in Sources */,
 				B46B72A828793F6200B06447 /* Company.swift in Sources */,
+				B4FA6E59287A7C3900431D2D /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -469,7 +477,6 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = W8ML258KX3;
-				EXCLUDED_ARCHS = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TOWALogin/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -502,7 +509,6 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = W8ML258KX3;
-				EXCLUDED_ARCHS = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TOWALogin/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

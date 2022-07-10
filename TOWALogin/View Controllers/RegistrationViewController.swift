@@ -31,7 +31,7 @@ class RegistrationViewController: BaseViewController {
     }
     
     @IBAction func signupButtonTapped(_ sender: Any) {
-        self.view.endEditing(true)
+        view.endEditing(true)
         
         if let errorMessage = validateFields() {
             showMessage(message: errorMessage)
@@ -41,7 +41,7 @@ class RegistrationViewController: BaseViewController {
             CredentialsUtils.setPassword(password: passwordTextField.text)
             showMessage(message: "Registration successful!")
             
-            DispatchQueue.main.asyncAfter(deadline: .now() + 1.5) {
+            DispatchQueue.main.asyncAfter(deadline: .now() + 1.0) {
                 self.dismiss(animated: true)
             }
         }
@@ -58,7 +58,7 @@ class RegistrationViewController: BaseViewController {
         }
         
         if CredentialsUtils.isPasswordValid(password: passwordTextField.text) == false {
-            return "Invalid password"
+            return "Password should contain 1 uppercase, 1 lowercase, and 1 numeric character"
         }
         
         if CredentialsUtils.isPasswordValid(password: confirmTextField.text) == false {

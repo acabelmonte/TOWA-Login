@@ -7,7 +7,7 @@
 
 import UIKit
 
-class TWTextField: UIView, UITextFieldDelegate {
+class TWTextField: UIView {
     
     @IBOutlet private var contentView: UIView!
     @IBOutlet private weak var bottomLine: UIView!
@@ -103,23 +103,6 @@ class TWTextField: UIView, UITextFieldDelegate {
         showPassword = !showPassword
     }
     
-    // MARK: - UITextFieldDelegate
-    func textFieldDidBeginEditing(_ textField: UITextField) {
-        showSelected()
-    }
-    
-    func textFieldDidEndEditing(_ textField: UITextField) {
-        if let text = textField.text, text.count == 0 {
-            self.moveDownTitleLabel()
-        }
-        
-        hideSelected()
-    }
-    
-    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
-        textField.resignFirstResponder()
-    }
-    
     // MARK: - UI methods
     private func moveUpTitleLabel() {
         labelOffsetConstraint.priority = .defaultLow
@@ -147,6 +130,27 @@ class TWTextField: UIView, UITextFieldDelegate {
             self.layer.shadowColor = UIColor.clear.cgColor
             self.bottomLine.isHidden = false
         }
+    }
+    
+}
+
+// MARK: - UITextFieldDelegate
+extension TWTextField: UITextFieldDelegate {
+    
+    func textFieldDidBeginEditing(_ textField: UITextField) {
+        showSelected()
+    }
+    
+    func textFieldDidEndEditing(_ textField: UITextField) {
+        if let text = textField.text, text.count == 0 {
+            self.moveDownTitleLabel()
+        }
+        
+        hideSelected()
+    }
+    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        textField.resignFirstResponder()
     }
     
 }

@@ -344,6 +344,7 @@
                                                 <rect key="frame" x="20" y="12" width="378" height="48"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="48" id="QTb-kF-lxY"/>
+                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="378" id="ULz-Jn-MAZ"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="40"/>
                                                 <nil key="textColor"/>
@@ -578,8 +579,7 @@
                                                                 <state key="normal" title="Button"/>
                                                                 <buttonConfiguration key="configuration" style="plain" image="location" title=" "/>
                                                                 <connections>
-                                                                    <action selector="locationButtonTapped:" destination="GAV-Pc-w80" eventType="touchUpInside" id="LEk-UQ-tAu"/>
-                                                                    <segue destination="4z5-pP-Q3f" kind="presentation" id="2bP-Q0-gRJ"/>
+                                                                    <segue destination="4z5-pP-Q3f" kind="presentation" identifier="ShowMapViewController" id="2bP-Q0-gRJ"/>
                                                                 </connections>
                                                             </button>
                                                         </subviews>
@@ -721,7 +721,7 @@
                                             <constraint firstAttribute="trailing" secondItem="XXC-ap-FOU" secondAttribute="trailing" constant="12" id="9Ee-91-TC9"/>
                                             <constraint firstAttribute="trailing" secondItem="l3t-VD-qA4" secondAttribute="trailing" constant="12" id="AFT-oB-cux"/>
                                             <constraint firstAttribute="trailing" secondItem="R8G-vc-4YO" secondAttribute="trailing" constant="12" id="BoS-au-bUa"/>
-                                            <constraint firstAttribute="trailing" secondItem="DZh-Oy-M23" secondAttribute="trailing" constant="30" id="GIH-R3-S0f"/>
+                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="DZh-Oy-M23" secondAttribute="trailing" constant="20" symbolic="YES" id="GIH-R3-S0f"/>
                                             <constraint firstItem="l3t-VD-qA4" firstAttribute="leading" secondItem="ZIi-wD-2lD" secondAttribute="leading" constant="12" id="JuV-nE-gsL"/>
                                             <constraint firstItem="XXC-ap-FOU" firstAttribute="leading" secondItem="ZIi-wD-2lD" secondAttribute="leading" constant="12" id="LXI-2u-Bcm"/>
                                             <constraint firstItem="DZh-Oy-M23" firstAttribute="top" secondItem="ZIi-wD-2lD" secondAttribute="top" constant="12" id="O0m-ac-ae2"/>
@@ -780,27 +780,68 @@
             </objects>
             <point key="canvasLocation" x="2630" y="788"/>
         </scene>
-        <!--View Controller-->
+        <!--Map View Controller-->
         <scene sceneID="BBX-Gv-g98">
             <objects>
-                <viewController id="4z5-pP-Q3f" sceneMemberID="viewController">
+                <viewController id="4z5-pP-Q3f" customClass="MapViewController" customModule="TOWALogin" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8u3-Eq-WuJ">
                         <rect key="frame" x="0.0" y="0.0" width="428" height="872"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Sqa-wN-12B">
-                                <rect key="frame" x="94" y="223" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemBlueColor"/>
-                            </view>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="tyO-IX-AAu">
+                                <rect key="frame" x="0.0" y="100" width="428" height="742"/>
+                            </mapView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Distance:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T5S-ea-WoE">
+                                <rect key="frame" x="20" y="847" width="70" height="18"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <color key="textColor" systemColor="systemGrayColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Unable to get distance" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TKk-V1-Q3b">
+                                <rect key="frame" x="95" y="847" width="313" height="18"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZlG-bK-nPL">
+                                <rect key="frame" x="0.0" y="44" width="428" height="56"/>
+                                <items>
+                                    <navigationItem title="Map" id="8eB-yV-H68">
+                                        <barButtonItem key="rightBarButtonItem" title="Close" id="sN2-KD-Vfm">
+                                            <color key="tintColor" red="1" green="0.65745048279999996" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <connections>
+                                                <action selector="closeButtonTapped:" destination="4z5-pP-Q3f" id="E7o-Gb-7Xm"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="bsM-FF-qhY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="bsM-FF-qhY" firstAttribute="trailing" secondItem="ZlG-bK-nPL" secondAttribute="trailing" id="2zh-2Q-QSD"/>
+                            <constraint firstItem="TKk-V1-Q3b" firstAttribute="leading" secondItem="T5S-ea-WoE" secondAttribute="trailing" constant="5" id="BfF-dr-7vX"/>
+                            <constraint firstItem="tyO-IX-AAu" firstAttribute="top" secondItem="ZlG-bK-nPL" secondAttribute="bottom" id="STD-7H-uF0"/>
+                            <constraint firstItem="ZlG-bK-nPL" firstAttribute="top" secondItem="bsM-FF-qhY" secondAttribute="top" id="TGI-c9-U1f"/>
+                            <constraint firstItem="bsM-FF-qhY" firstAttribute="trailing" secondItem="TKk-V1-Q3b" secondAttribute="trailing" constant="20" id="a3h-Ml-qP3"/>
+                            <constraint firstItem="TKk-V1-Q3b" firstAttribute="centerY" secondItem="T5S-ea-WoE" secondAttribute="centerY" id="ehw-XE-JSa"/>
+                            <constraint firstItem="ZlG-bK-nPL" firstAttribute="leading" secondItem="8u3-Eq-WuJ" secondAttribute="leading" id="erg-7t-9vC"/>
+                            <constraint firstItem="bsM-FF-qhY" firstAttribute="trailing" secondItem="tyO-IX-AAu" secondAttribute="trailing" id="fSu-Q8-I6l"/>
+                            <constraint firstItem="T5S-ea-WoE" firstAttribute="top" secondItem="tyO-IX-AAu" secondAttribute="bottom" constant="5" id="jPg-Vy-mSA"/>
+                            <constraint firstItem="bsM-FF-qhY" firstAttribute="bottom" secondItem="tyO-IX-AAu" secondAttribute="bottom" constant="30" id="pAP-Qg-sPB"/>
+                            <constraint firstItem="tyO-IX-AAu" firstAttribute="leading" secondItem="bsM-FF-qhY" secondAttribute="leading" id="pKt-65-nUn"/>
+                            <constraint firstItem="T5S-ea-WoE" firstAttribute="leading" secondItem="bsM-FF-qhY" secondAttribute="leading" constant="20" id="wgJ-kf-4NF"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="distanceLabel" destination="TKk-V1-Q3b" id="AP9-RD-HOR"/>
+                        <outlet property="mapView" destination="tyO-IX-AAu" id="xaN-ay-ayF"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1bh-yY-OWx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3495" y="788"/>
+            <point key="canvasLocation" x="3494.8598130841119" y="787.9049676025918"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="xR1-ui-n6i">
@@ -832,9 +873,6 @@
         <image name="location" width="32" height="32"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="systemBlueColor">
-            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemGrayColor">
             <color red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

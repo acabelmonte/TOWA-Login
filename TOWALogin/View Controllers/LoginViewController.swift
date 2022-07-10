@@ -39,7 +39,7 @@ class LoginViewController: BaseViewController {
     
     // MARK: - Button tap methods
     @IBAction func loginButtonTapped(_ sender: Any) {
-        self.view.endEditing(true)
+        view.endEditing(true)
         
         if usernameTextField.text == CredentialsUtils.getUsername() && passwordTextField.text == CredentialsUtils.getPassword() {
             CredentialsUtils.setUserLoginState(loggedIn: true)

@@ -11,12 +11,14 @@ class UsersViewModel {
     
     var users = [User]()
     
+    // MARK: - Public methods
     func getUsers(success: @escaping () -> Void, failure: @escaping (String) -> Void) {
         UsersWebService().getUsers { usersData in
             self.users.removeAll()
             for userData in usersData {
                 self.users.append(User(data: userData))
             }
+            
             DispatchQueue.main.async {
                 success()
             }
@@ -43,6 +45,5 @@ class UsersViewModel {
         
         return cell
     }
-    
     
 }

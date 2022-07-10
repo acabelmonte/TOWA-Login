@@ -43,14 +43,17 @@ class UserDetailsViewController: BaseViewController {
         }
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "ShowMapViewController" {
+            let mapVC = segue.destination as! MapViewController
+            mapVC.user = user
+        }
+    }
+    
     // MARK: - Button tap methods
     @IBAction func logoutButtonTapped(_ sender: Any) {
         CredentialsUtils.setUserLoginState(loggedIn: false)
         navigationController?.dismiss(animated: true)
-    }
-
-    @IBAction func locationButtonTapped(_ sender: Any) {
-        print("location")
     }
     
 }
