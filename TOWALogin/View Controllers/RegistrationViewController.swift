@@ -37,10 +37,11 @@ class RegistrationViewController: BaseViewController {
             showMessage(message: errorMessage)
         }
         else {
+            showMessage(message: "Registration successful!")
             CredentialsUtils.setUsername(username: usernameTextField.text)
             CredentialsUtils.setPassword(password: passwordTextField.text)
-            showMessage(message: "Registration successful!")
             
+            // Added delay to display the "Registration successful!" message before going back to LoginVC
             DispatchQueue.main.asyncAfter(deadline: .now() + 1.0) {
                 self.dismiss(animated: true)
             }

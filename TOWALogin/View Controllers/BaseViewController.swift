@@ -28,7 +28,7 @@ class BaseViewController: UIViewController {
         style?.messageNumberOfLines = 0
         style?.shadowOpacity = 0.3
         style?.displayShadow = true
-        style?.messageFont = UIFont(name:"GeezaPro-Bold", size:17)
+        style?.messageFont = UIFont(name:"Helvetica-Bold", size:17)
     }
     
     override var shouldAutorotate: Bool {

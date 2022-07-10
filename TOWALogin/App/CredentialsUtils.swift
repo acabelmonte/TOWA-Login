@@ -11,6 +11,8 @@ class CredentialsUtils {
     
     static let kStoredUsername = "StoredUsername"
     static let kLoginState = "LoginState"
+    static let kService = "password"
+    static let kAccount = "towa"
     
     class func getUsername() -> String? {
         return UserDefaults.standard.string(forKey: kStoredUsername)
@@ -24,8 +26,8 @@ class CredentialsUtils {
     class func getPassword() -> String? {
         let query = [
             kSecClass: kSecClassGenericPassword,
-            kSecAttrService: "password",
-            kSecAttrAccount: "towa",
+            kSecAttrService: kService,
+            kSecAttrAccount: kAccount,
             kSecReturnData: true
         ] as CFDictionary
         
@@ -43,8 +45,8 @@ class CredentialsUtils {
         let data = Data(password.utf8)
         let query = [
             kSecClass: kSecClassGenericPassword,
-            kSecAttrService: "password",
-            kSecAttrAccount: "towa",
+            kSecAttrService: kService,
+            kSecAttrAccount: kAccount,
             kSecValueData: data
         ] as CFDictionary
         
@@ -55,8 +57,8 @@ class CredentialsUtils {
         if status == errSecDuplicateItem {
             let query = [
                 kSecClass: kSecClassGenericPassword,
-                kSecAttrService: "password",
-                kSecAttrAccount: "towa",
+                kSecAttrService: kService,
+                kSecAttrAccount: kAccount,
             ] as CFDictionary
 
             let attributesToUpdate = [kSecValueData: data] as CFDictionary

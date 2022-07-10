@@ -21,7 +21,7 @@ class Address {
         city = data["city"] as? String
         zipcode = data["zipcode"] as? String
         
-        if let geoDict = data["geo"] as? [String : Any] {
+        if let geoDict = data["geo"] as? [String: Any] {
             geo = Geo(data: geoDict)
         }
     }

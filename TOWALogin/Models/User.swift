@@ -26,11 +26,11 @@ class User {
         phone = data["phone"] as? String
         website = data["website"] as? String
         
-        if let addressDict = data["address"] as? [String : Any] {
+        if let addressDict = data["address"] as? [String: Any] {
             address = Address(data: addressDict)
         }
         
-        if let companyDict = data["company"] as? [String : Any] {
+        if let companyDict = data["company"] as? [String: Any] {
             company = Company(data: companyDict)
         }
     }

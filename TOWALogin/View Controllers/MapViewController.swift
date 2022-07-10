@@ -13,7 +13,7 @@ class MapViewController: BaseViewController {
     @IBOutlet weak var mapView: MKMapView!
     @IBOutlet weak var distanceLabel: UILabel!
     
-    let viewModel = MapViewModel()
+    private let viewModel = MapViewModel()
     var user: User?
     
     // MARK: - Lifecycle

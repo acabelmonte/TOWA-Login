@@ -16,8 +16,8 @@ class MapViewModel: NSObject, CLLocationManagerDelegate {
     private var userLocation: CLLocationCoordinate2D?
     private var myLocation: CLLocationCoordinate2D?
     private var annotations = [MKPointAnnotation]()
-    let numberFormatter = NumberFormatter()
-    var completionBlock: () -> Void = {}
+    private let numberFormatter = NumberFormatter()
+    private var completionBlock: () -> Void = {}
     
     // MARK: - Custom getter/setter
     private var _user = User(data: [String: Any]())

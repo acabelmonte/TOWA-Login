@@ -11,7 +11,7 @@ class UsersViewController: BaseViewController  {
     
     @IBOutlet weak var tableView: UITableView!
     
-    let viewModel = UsersViewModel()
+    private let viewModel = UsersViewModel()
     
     // MARK: - Lifecycle
     override func viewDidLoad() {
