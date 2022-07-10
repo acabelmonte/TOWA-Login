@@ -1,7 +1,8 @@
 # Uncomment the next line to define a global platform for your project
-platform :ios, '9.0'
+platform :ios, '12.0'
 
-target 'TOWA Login' do
+target 'TOWALogin' do
+
   use_frameworks!
   pod 'Toast', '~> 4.0.0'
 

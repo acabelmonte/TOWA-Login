@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_TOWA_LoginVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_TOWA_LoginVersionString[];
+FOUNDATION_EXPORT double Pods_TOWALoginVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_TOWALoginVersionString[];
 

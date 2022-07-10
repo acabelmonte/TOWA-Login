@@ -50,7 +50,7 @@ class UserDetailsViewController: BaseViewController {
     }
 
     @IBAction func locationButtonTapped(_ sender: Any) {
-        
+        print("location")
     }
     
 }

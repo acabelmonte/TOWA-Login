@@ -33,9 +33,13 @@ class UsersViewModel {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let user = users[indexPath.row]
+        let bgView = UIView()
+        bgView.backgroundColor = UIColor.init(red: 255/255, green: 168/255, blue: 0/255, alpha: 1.0)
+        
         let cell = tableView.dequeueReusableCell(withIdentifier: "UserCellIdentifier", for: indexPath)
         cell.textLabel?.font = UIFont.boldSystemFont(ofSize: 17.0)
         cell.textLabel?.text = user.name
+        cell.selectedBackgroundView = bgView
         
         return cell
     }

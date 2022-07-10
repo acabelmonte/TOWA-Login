@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:/Users/artbelmonte/Repository/TOWA Login/TOWALogin.xcodeproj">
+      location = "group:TOWALogin.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">

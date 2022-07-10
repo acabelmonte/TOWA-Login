@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A2CDB1405D997155ED1F15A36744C5A1"
-               BuildableName = "Pods_TOWA_Login.framework"
-               BlueprintName = "Pods-TOWA Login"
+               BlueprintIdentifier = "127BEC6473172F9D6B2CD8F00E8FFE0E"
+               BuildableName = "Pods_TOWALogin.framework"
+               BlueprintName = "Pods-TOWALogin"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
