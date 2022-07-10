@@ -87,6 +87,7 @@ class MapViewModel: NSObject, CLLocationManagerDelegate {
     // MARK: - CLLocationManagerDelegate
     func locationManager(_ manager: CLLocationManager, didChangeAuthorization status: CLAuthorizationStatus) {
         if status == .authorizedAlways || status == .authorizedWhenInUse {
+            locationManager?.startUpdatingLocation()
             myLocation = locationManager?.location?.coordinate
         }
         
@@ -98,7 +99,15 @@ class MapViewModel: NSObject, CLLocationManagerDelegate {
             annotations.append(annotation)
         }
         
-        completionBlock()
+        // Handled iOS 12 taking longer to get the location
+        if #available(iOS 12.0, *) {
+            DispatchQueue.main.asyncAfter(deadline: .now() + 1.0) {
+                self.myLocation = self.locationManager?.location?.coordinate
+                self.completionBlock()
+            }
+        } else {
+            completionBlock()
+        }
     }
     
 }

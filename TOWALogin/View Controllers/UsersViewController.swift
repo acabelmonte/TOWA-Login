@@ -14,7 +14,10 @@ class UsersViewController: BaseViewController  {
     let viewModel = UsersViewModel()
     
     // MARK: - Lifecycle
-    override func viewDidLoad() {}
+    override func viewDidLoad() {
+        allowAutoRotate = true
+    }
+    
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         

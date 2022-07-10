@@ -20,6 +20,7 @@ class MapViewController: BaseViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        allowAutoRotate = true
         viewModel.user = user!
         viewModel.getAnnotations { annotations in
             self.mapView.addAnnotations(annotations)

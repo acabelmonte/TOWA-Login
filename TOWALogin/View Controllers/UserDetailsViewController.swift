@@ -26,6 +26,7 @@ class UserDetailsViewController: BaseViewController {
         super.viewDidLoad()
 
         navigationController?.navigationBar.tintColor = yellowColor
+        allowAutoRotate = true
         nameLabel.text = user?.name
         usernameLabel.text = user?.username
         emailLabel.text = user?.email
