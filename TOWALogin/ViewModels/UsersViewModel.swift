@@ -13,10 +13,10 @@ class UsersViewModel {
     
     // MARK: - Public methods
     func getUsers(success: @escaping () -> Void, failure: @escaping (String) -> Void) {
-        UsersWebService().getUsers { usersData in
-            self.users.removeAll()
+        UsersWebService().getUsers { [weak self] usersData in
+            self?.users.removeAll()
             for userData in usersData {
-                self.users.append(User(data: userData))
+                self?.users.append(User(data: userData))
             }
             
             DispatchQueue.main.async {

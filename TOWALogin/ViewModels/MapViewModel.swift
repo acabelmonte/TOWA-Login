@@ -38,17 +38,17 @@ class MapViewModel: NSObject, CLLocationManagerDelegate {
     func getAnnotations(completion: @escaping ([MKPointAnnotation]) -> Void) {
         requestLocationAccess()
         
-        completionBlock = {
-            if let loc = self.userLocation {
+        completionBlock = { [weak self] in
+            if let loc = self?.userLocation {
                 let annotation = MKPointAnnotation()
                 annotation.coordinate = loc
-                annotation.title = self.user.name
+                annotation.title = self?.user.name
                 annotation.subtitle = "\(loc.latitude), \(loc.longitude)"
-                self.annotations.append(annotation)
+                self?.annotations.append(annotation)
             }
             
             DispatchQueue.main.async {
-                completion(self.annotations)
+                completion(self?.annotations ?? [])
             }
         }
     }

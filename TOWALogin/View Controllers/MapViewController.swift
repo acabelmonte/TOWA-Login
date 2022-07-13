@@ -22,10 +22,10 @@ class MapViewController: BaseViewController {
         
         allowAutoRotate = true
         viewModel.user = user!
-        viewModel.getAnnotations { annotations in
-            self.mapView.addAnnotations(annotations)
-            self.mapView.showAnnotations(self.mapView.annotations, animated: true)
-            self.distanceLabel.text = self.viewModel.getDistance()
+        viewModel.getAnnotations { [weak self] annotations in
+            self?.mapView.addAnnotations(annotations)
+            self?.mapView.showAnnotations(self?.mapView.annotations ?? [], animated: true)
+            self?.distanceLabel.text = self?.viewModel.getDistance()
         }
     }
     

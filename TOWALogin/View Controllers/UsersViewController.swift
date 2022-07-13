@@ -22,11 +22,11 @@ class UsersViewController: BaseViewController  {
         super.viewWillAppear(animated)
         
         showLoading()
-        viewModel.getUsers {
-            self.hideLoading()
-            self.tableView.reloadData()
-        } failure: { errorMessage in
-            self.showMessage(message: errorMessage)
+        viewModel.getUsers { [weak self] in
+            self?.hideLoading()
+            self?.tableView.reloadData()
+        } failure: { [weak self] errorMessage in
+            self?.showMessage(message: errorMessage)
         }
     }
     
