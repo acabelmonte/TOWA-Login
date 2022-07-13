@@ -21,7 +21,11 @@ class MapViewController: BaseViewController {
         super.viewDidLoad()
         
         allowAutoRotate = true
-        viewModel.user = user!
+        
+        if let user = user {
+            viewModel.user = user
+        }
+        
         viewModel.getAnnotations { [weak self] annotations in
             self?.mapView.addAnnotations(annotations)
             self?.mapView.showAnnotations(self?.mapView.annotations ?? [], animated: true)
